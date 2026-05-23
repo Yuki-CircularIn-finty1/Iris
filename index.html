@@ -4,59 +4,440 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <title>Circular In-finity | Climate, Equity, AI, BI, and Projects</title>
-  <meta name="description" content="Circular In-finity presents projects, ideas, GPTs, BI, climate-related activities, and practical experiments focused on equity and circularity toward 2030.">
+
+  <title>Co to 2030 | Circular In-finity</title>
+  <meta name="description" content="Co to 2030 is the web home of Circular In-finity, a co-pilot for climate, equity, circularity, AI, BI, and project-based learning toward 2030.">
   <link rel="canonical" href="https://2030-oo.net/">
   <link rel="icon" href="/1da56396e945bc322941e5b98d79225a.jpg">
+
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Circular In-finity">
-  <meta property="og:title" content="Circular In-finity | Climate, Equity, AI, BI, and Projects">
-  <meta property="og:description" content="Projects, ideas, GPTs, BI, and climate-related activities focused on equity and circularity.">
+  <meta property="og:title" content="Co to 2030 | Circular In-finity">
+  <meta property="og:description" content="Circular In-finity serves as a co-pilot for climate, equity, circularity, AI, BI, and learning projects toward 2030.">
   <meta property="og:url" content="https://2030-oo.net/">
   <meta property="og:image" content="https://2030-oo.net/top/62c17481c767024612140f2cd54c51b3.jpg">
+
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Circular In-finity | Climate, Equity, AI, BI, and Projects">
-  <meta name="twitter:description" content="Projects, ideas, GPTs, BI, and climate-related activities focused on equity and circularity.">
+  <meta name="twitter:title" content="Co to 2030 | Circular In-finity">
+  <meta name="twitter:description" content="A Circular In-finity site for climate, equity, circularity, AI, BI, and project-based learning toward 2030.">
   <meta name="twitter:image" content="https://2030-oo.net/top/62c17481c767024612140f2cd54c51b3.jpg">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="/top/62c17481c767024612140f2cd54c51b3.jpg" fetchpriority="high">
   <link rel="stylesheet" href="/dist/styles.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:300,400,500,700|Source+Code+Pro:400,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700|Roboto:300,400,500,700&display=swap">
+
   <style>
-    :root { color-scheme: light; --green: #38761d; --ink: #1f2933; --muted: #5f6b7a; --line: #d8e0e8; --accent: #e63946; }
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: Roboto, "Google Sans", Arial, sans-serif; color: var(--ink); background: #f7faf8; line-height: 1.6; }
-    a { color: #1663b7; text-decoration-thickness: .08em; text-underline-offset: .18em; }
-    img { max-width: 100%; height: auto; display: block; }
-    .site-header { position: sticky; top: 0; z-index: 10; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); backdrop-filter: blur(10px); }
-    .notice { background: var(--green); color: #fff; padding: .7rem clamp(1rem, 4vw, 3rem); text-align: center; font-weight: 500; }
-    .nav-bar { display: flex; align-items: center; gap: 1rem; padding: .8rem clamp(1rem, 4vw, 3rem); }
-    .brand { display: inline-flex; align-items: center; gap: .65rem; color: var(--ink); font-weight: 700; text-decoration: none; white-space: nowrap; }
-    .brand img { width: 42px; height: 42px; object-fit: cover; border-radius: 50%; }
-    .nav-links { display: flex; flex-wrap: wrap; gap: .45rem .8rem; margin-left: auto; font-size: .92rem; }
-    .nav-links a { color: var(--ink); text-decoration: none; padding: .2rem .1rem; }
-    .nav-links a:hover { color: #1663b7; text-decoration: underline; }
-    .hero { min-height: 56vh; display: grid; place-items: end start; padding: clamp(5rem, 12vw, 9rem) clamp(1rem, 5vw, 5rem); background: linear-gradient(180deg, rgba(0,0,0,.2), rgba(0,0,0,.55)), url("/top/62c17481c767024612140f2cd54c51b3.jpg") center/cover; color: #fff; }
-    .hero h1 { max-width: 920px; margin: 0; font-size: clamp(2.3rem, 8vw, 5.8rem); line-height: 1; letter-spacing: 0; }
-    .hero p { max-width: 760px; margin: 1rem 0 0; font-size: clamp(1rem, 2vw, 1.3rem); }
-    main { display: grid; gap: 0; }
-    .section { padding: clamp(2.2rem, 6vw, 5rem) clamp(1rem, 5vw, 5rem); border-bottom: 1px solid var(--line); background: #fff; }
-    .section:nth-of-type(even) { background: #f2f7f4; }
-    .section-inner { max-width: 1120px; margin: 0 auto; display: grid; gap: 1.4rem; }
-    .section h2, .section h3 { margin: 0; line-height: 1.2; letter-spacing: 0; }
-    .section h2 { font-size: clamp(1.7rem, 4vw, 3rem); }
-    .section h3 { font-size: clamp(1.25rem, 3vw, 2rem); color: var(--green); }
-    .section p { margin: 0; max-width: 900px; }
-    .media-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; align-items: start; }
-    .media-card { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #fff; }
-    .media-card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
-    .link-list { display: flex; flex-wrap: wrap; gap: .6rem; padding: 0; margin: 0; list-style: none; }
-    .link-list a { display: inline-flex; align-items: center; min-height: 2.2rem; padding: .35rem .7rem; border: 1px solid var(--line); border-radius: 999px; background: #fff; text-decoration: none; }
-    .site-footer { padding: 1.5rem clamp(1rem, 5vw, 5rem); background: var(--green); color: #fff; text-align: center; }
-    .site-footer a { color: #fff; }
-    @media (max-width: 760px) { .nav-bar { align-items: flex-start; flex-direction: column; } .nav-links { margin-left: 0; } .hero { min-height: 48vh; } }
+    :root {
+      color-scheme: light;
+      --green: #2f6f3e;
+      --green-dark: #194d2b;
+      --mint: #e9f4ee;
+      --sky: #e8f2f8;
+      --ink: #17212b;
+      --text: #2d3844;
+      --muted: #66737f;
+      --line: #d8e3dc;
+      --paper: #ffffff;
+      --soft: #f6f8f6;
+      --blue: #1769aa;
+      --red: #c8323a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--soft);
+      color: var(--text);
+      font-family: Roboto, "Google Sans", Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: var(--blue);
+      text-underline-offset: .18em;
+      text-decoration-thickness: .08em;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: -4rem;
+      z-index: 100;
+      padding: .6rem .9rem;
+      background: var(--ink);
+      color: #fff;
+      border-radius: 4px;
+    }
+
+    .skip-link:focus {
+      top: 1rem;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(25, 77, 43, .14);
+      background: rgba(255, 255, 255, .96);
+      backdrop-filter: blur(12px);
+    }
+
+    .notice {
+      background: var(--green-dark);
+      color: #fff;
+      padding: .45rem clamp(1rem, 4vw, 3rem);
+      text-align: center;
+      font-size: .88rem;
+      font-weight: 500;
+    }
+
+    .nav-bar {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: .8rem clamp(1rem, 4vw, 2rem);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: .7rem;
+      min-width: max-content;
+      color: var(--ink);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: .5rem 1rem;
+      margin-left: auto;
+      font-size: .94rem;
+    }
+
+    .nav-links a {
+      color: var(--ink);
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover {
+      color: var(--blue);
+      text-decoration: underline;
+    }
+
+    .hero {
+      min-height: min(720px, 78vh);
+      display: grid;
+      align-items: end;
+      background:
+        linear-gradient(90deg, rgba(9, 24, 31, .78), rgba(9, 24, 31, .38) 54%, rgba(9, 24, 31, .22)),
+        url("/top/62c17481c767024612140f2cd54c51b3.jpg") center / cover;
+      color: #fff;
+    }
+
+    .hero-inner {
+      width: min(1180px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: clamp(5rem, 12vw, 9rem) 0 clamp(3rem, 8vw, 5rem);
+    }
+
+    .eyebrow {
+      margin: 0 0 .75rem;
+      font-size: .95rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      max-width: 860px;
+      margin: 0;
+      font-family: "Google Sans", Roboto, Arial, sans-serif;
+      font-size: clamp(3.4rem, 10vw, 7rem);
+      line-height: .96;
+      letter-spacing: 0;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: 1.1rem 0 0;
+      font-size: clamp(1.05rem, 2vw, 1.35rem);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem;
+      margin-top: 1.6rem;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 2.7rem;
+      padding: .65rem 1rem;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button-primary {
+      background: #fff;
+      color: var(--green-dark);
+    }
+
+    .button-secondary {
+      border-color: rgba(255, 255, 255, .75);
+      color: #fff;
+    }
+
+    .section {
+      padding: clamp(3rem, 7vw, 6rem) clamp(1rem, 5vw, 3rem);
+      border-bottom: 1px solid var(--line);
+      background: var(--paper);
+    }
+
+    .section.alt {
+      background: var(--mint);
+    }
+
+    .section-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      max-width: 780px;
+      margin-bottom: 1.8rem;
+    }
+
+    .section-header h2 {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Google Sans", Roboto, Arial, sans-serif;
+      font-size: clamp(2rem, 4.8vw, 3.3rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .section-header p {
+      margin: .8rem 0 0;
+      color: var(--muted);
+      font-size: 1.06rem;
+    }
+
+    .mission-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr);
+      gap: clamp(1.4rem, 4vw, 3rem);
+      align-items: start;
+    }
+
+    .lead {
+      margin: 0;
+      color: var(--ink);
+      font-size: clamp(1.25rem, 2.4vw, 1.7rem);
+      line-height: 1.45;
+    }
+
+    .fact-panel {
+      display: grid;
+      gap: .75rem;
+      margin: 0;
+      padding: 1.2rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .fact-panel dt {
+      color: var(--green-dark);
+      font-weight: 700;
+    }
+
+    .fact-panel dd {
+      margin: 0;
+      color: var(--text);
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      display: grid;
+      gap: .8rem;
+      min-height: 100%;
+      padding: 1.1rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .card h3 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 1.15rem;
+      line-height: 1.2;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .98rem;
+    }
+
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .media-card {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      overflow: hidden;
+      min-height: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .media-card img {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      background: var(--sky);
+    }
+
+    .media-card-body {
+      display: grid;
+      gap: .35rem;
+      padding: .95rem;
+    }
+
+    .media-card h3 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 1.05rem;
+      line-height: 1.25;
+    }
+
+    .media-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .94rem;
+    }
+
+    .link-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .65rem;
+      padding: 0;
+      margin: 1rem 0 0;
+      list-style: none;
+    }
+
+    .link-list a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 2.3rem;
+      padding: .4rem .75rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 1rem;
+    }
+
+    .site-footer {
+      background: var(--green-dark);
+      color: #fff;
+      padding: 2rem clamp(1rem, 5vw, 3rem);
+      text-align: center;
+    }
+
+    .site-footer a {
+      color: #fff;
+    }
+
+    @media (max-width: 980px) {
+      .mission-grid,
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+
+      .card-grid,
+      .media-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 700px) {
+      .notice {
+        font-size: .8rem;
+      }
+
+      .nav-bar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav-links {
+        justify-content: flex-start;
+        margin-left: 0;
+      }
+
+      .hero {
+        min-height: 620px;
+      }
+
+      .card-grid,
+      .media-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TQVEPB550H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -66,154 +447,211 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
   <header class="site-header">
-    <div class="notice">We, Circular In-finity（C00）,serve as CO-PILOT to your pilot projects. Transform CO2 to COO toward C00 (Circular In-finity).</div>
+    <div class="notice">Circular In-finity serves as a co-pilot for projects moving from CO2 to COO, toward C00.</div>
     <div class="nav-bar">
-      <a class="brand" href="index.html" aria-label="Site home"><img src="/6d87b7e0f5a89f629fa9db87459fce6e.jpg" alt=""><span>CO to 2030</span></a>
+      <a class="brand" href="index.html" aria-label="Circular In-finity home">
+        <img src="/6d87b7e0f5a89f629fa9db87459fce6e.jpg" alt="">
+        <span>Circular In-finity</span>
+      </a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="index.html">CO to 2030</a>
-        <a href="index.html">Top</a>
-        <a href="deco_deco.html">deco=deco</a>
-        <a href="deco_deco_sub.html">deco=deco:sub</a>
-        <a href="useful.html">useful</a>
-        <a href="wic3.html">WIC3</a>
-        <a href="wic2.html">World Idea Challenge 2nd</a>
-        <a href="gallery.html">gallery</a>
-        <a href="result.html">Result</a>
-        <a href="https://web.archive.org/web/20230329171809/https://2030-oo.net/" target="_blank" rel="noopener noreferrer">WIC 1st</a>
-        <a href="news.html">News</a>
-        <a href="pr.html">Press Release</a>
-        <a href="pr1201.html">Press Release1201</a>
-        <a href="319.html">PR_20240319</a>
-        <a href="Press%20Rerease0722.html">Press Rerease0722</a>
-        <a href="PR_20240918.html">PR_20240918</a>
-        <a href="ai.html">AI(GPTs)</a>
-        <a href="https://gptstore.ai/creators/user-ARvyNPfQtohbq9JkWaEckriV" target="_blank" rel="noopener noreferrer">GPTs store</a>
-        <a href="ai2.html">「AI (GPTs)」2</a>
-        <a href="bi.html">BI</a>
-        <a href="https://public.tableau.com/app/profile/shinichi.sato7625" target="_blank" rel="noopener noreferrer">Tableau1</a>
-        <a href="https://public.tableau.com/app/profile/shinichi.sato5275/vizzes" target="_blank" rel="noopener noreferrer">Tableau2</a>
-        <a href="ci.html">CI</a>
-        <a href="dei.html">DE&amp;I</a>
-        <a href="dei.html">Fem_sports</a>
-        <a href="hikikomori.html">Hikikomori</a>
-        <a href="yasuni_itt.html">Yasuní-ITT</a>
-        <a href="https://bit.ly/m/2030_oo" target="_blank" rel="noopener noreferrer">FI</a>
+        <a href="#mission">Mission</a>
+        <a href="#work">Work</a>
+        <a href="#initiatives">Initiatives</a>
+        <a href="#resources">Resources</a>
+        <a href="#updates">Updates</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
+
   <main id="main-content">
     <section class="hero" aria-labelledby="page-title">
-      <div>
-        <h1 id="page-title">CO to 2030</h1>
-        <p>Climate, equity, AI, BI, and practical projects toward circularity.</p>
-      </div>
-    </section>
-    <section class="section" aria-labelledby="section-1">
-      <div class="section-inner">
-        <h2 id="section-1">Circular In-finity</h2>
-        <div class="media-grid">
-          <a href="https://www.quora.com/profile/Shinichi-Sato-6" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/d44c59b58ecbed60f81f09ab43331527.jpg" alt="Link" loading="lazy"></a>
-          <a href="https://note.com/equity2050" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/591583a7cb0047551ef376f5945f1980.jpg" alt="Link" loading="lazy"></a>
-          <a href="https://www.unicef.org/emergencies/children-gaza-desperate-need-lifesaving-support" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/6aa06155aba1a33c05059aa48e15b6f4.jpg" alt="Link" loading="lazy"></a>
-          <a href="https://www.savethechildren.net/what-we-do/emergencies/afghanistan" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/de6d224ea205637b6a4e61b5fab8fc56.jpg" alt="Link" loading="lazy"></a>
-          <a href="https://www.unhcr.org/emergencies/ukraine-emergency" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/faf7ddf48b66203043b7aac802efc0f8.jpg" alt="Link" loading="lazy"></a>
-          <a href="https://piece-of-syria.org/news/piece/pieceofsyria_report1010.html" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/715391eddd823c02afb6706ba6322938.jpg" alt="Link" loading="lazy"></a>
-          <a href="https://www.cia.gov/the-world-factbook/" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/89119e5f88fa7d0545510323309e2ff9.jpg" alt="Link" loading="lazy"></a>
+      <div class="hero-inner">
+        <p class="eyebrow">Circular In-finity</p>
+        <h1 id="page-title">Co to 2030</h1>
+        <p>Climate action, equity, circularity, AI, BI, and project-based learning for people building the world they want to see in 2030.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#initiatives">Explore initiatives</a>
+          <a class="button button-secondary" href="mailto:s@2030-oo.net">Contact us</a>
         </div>
       </div>
     </section>
-    <section class="section" aria-labelledby="section-2">
+
+    <section class="section" id="mission" aria-labelledby="mission-title">
+      <div class="section-inner mission-grid">
+        <div>
+          <div class="section-header">
+            <h2 id="mission-title">We co-pilot practical projects toward 2030.</h2>
+          </div>
+          <p class="lead">Circular In-finity connects climate, equity, learning, and data into small but concrete pilot projects. The site collects our activities, public resources, experiments, and partner links in one place.</p>
+        </div>
+        <dl class="fact-panel" aria-label="Circular In-finity focus areas">
+          <dt>Climate and circularity</dt>
+          <dd>Ideas and actions around net zero, well-being, and circular futures.</dd>
+          <dt>Equity and inclusion</dt>
+          <dd>DE&amp;I, universal schools, sports, and social participation themes.</dd>
+          <dt>AI and BI</dt>
+          <dd>GPTs, Tableau, data visualization, and practical knowledge tools.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section alt" id="work" aria-labelledby="work-title">
       <div class="section-inner">
-        <h2 id="section-2">Net ZERO and Well-being</h2>
+        <div class="section-header">
+          <h2 id="work-title">What We Work On</h2>
+          <p>Four connected lanes organize the activity of Circular In-finity.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Co-pilot projects</h3>
+            <p>Support pilot projects that turn broad 2030 goals into practical local and global experiments.</p>
+          </article>
+          <article class="card">
+            <h3>Climate learning</h3>
+            <p>Use stories, contests, data, and visual works to make climate and SDGs topics easier to enter.</p>
+          </article>
+          <article class="card">
+            <h3>Equity and DE&amp;I</h3>
+            <p>Connect inclusion, sport, hikikomori, universal school ideas, and social design.</p>
+          </article>
+          <article class="card">
+            <h3>AI and BI tools</h3>
+            <p>Share GPTs, Tableau dashboards, and other tools that help people learn, compare, and act.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="initiatives" aria-labelledby="initiatives-title">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 id="initiatives-title">Featured Initiatives</h2>
+          <p>Key entry points for current and archived Circular In-finity activities.</p>
+        </div>
+        <div class="media-grid">
+          <a class="media-card" href="wic2.html">
+            <img src="top/2e82cc2f6d0fb6a763e8f75c322022c7.jpg" alt="Co to 2030 contest visual" loading="lazy">
+            <span class="media-card-body">
+              <h3>World Idea Challenge</h3>
+              <p>Concept works imagining 2030 through stories, visuals, and learning projects.</p>
+            </span>
+          </a>
+          <a class="media-card" href="https://jprsi.go.jp/en/member/532" target="_blank" rel="noopener noreferrer">
+            <img src="top/85255a9ebf33a095f734c1057502afff.jpg" alt="JPRSI virtual booth visual" loading="lazy">
+            <span class="media-card-body">
+              <h3>COP28 Virtual Japan Pavilion</h3>
+              <p>JPRSI online booth activities connected to COP28 and international collaboration.</p>
+            </span>
+          </a>
+          <a class="media-card" href="bi.html">
+            <img src="top/af00e409fc84aed363b69132906efe03.jpg" alt="Business intelligence dashboard visual" loading="lazy">
+            <span class="media-card-body">
+              <h3>BI and Tableau</h3>
+              <p>Data visualization and public dashboards for learning and decision support.</p>
+            </span>
+          </a>
+          <a class="media-card" href="ai.html">
+            <img src="top/c3102ab5d1b6a10d20dc5e0a84e94dfc.jpg" alt="AI and knowledge tools visual" loading="lazy">
+            <span class="media-card-body">
+              <h3>AI and GPTs</h3>
+              <p>Experiments with AI assistants, GPTs, and practical knowledge interfaces.</p>
+            </span>
+          </a>
+          <a class="media-card" href="deco_deco.html">
+            <img src="top/8c4d76a2eaa837520d22b82606532cf2.jpg" alt="Climate action visual" loading="lazy">
+            <span class="media-card-body">
+              <h3>Deco and Climate Action</h3>
+              <p>Climate lifestyle, circularity, and behavior-change resources.</p>
+            </span>
+          </a>
+          <a class="media-card" href="dei.html">
+            <img src="top/f662a9bbc6d5fdf87e2476658d842ea8.jpg" alt="Equity and inclusion visual" loading="lazy">
+            <span class="media-card-body">
+              <h3>Equity and Inclusion</h3>
+              <p>DE&amp;I themes across sport, community, education, and social participation.</p>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="resources" aria-labelledby="resources-title">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 id="resources-title">Resources and Public Links</h2>
+          <p>Useful places to continue exploring Circular In-finity themes.</p>
+        </div>
+        <div class="two-column">
+          <article class="card">
+            <h3>Learning and global context</h3>
+            <p>References for climate, humanitarian issues, and global literacy.</p>
+            <ul class="link-list">
+              <li><a href="https://www.unicef.org/emergencies/children-gaza-desperate-need-lifesaving-support" target="_blank" rel="noopener noreferrer">UNICEF Gaza support</a></li>
+              <li><a href="https://www.unhcr.org/emergencies/ukraine-emergency" target="_blank" rel="noopener noreferrer">UNHCR Ukraine emergency</a></li>
+              <li><a href="https://www.cia.gov/the-world-factbook/" target="_blank" rel="noopener noreferrer">World Factbook</a></li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Social channels and notes</h3>
+            <p>Follow related public activity and writing.</p>
+            <ul class="link-list">
+              <li><a href="https://note.com/equity2050" target="_blank" rel="noopener noreferrer">note</a></li>
+              <li><a href="https://www.quora.com/profile/Shinichi-Sato-6" target="_blank" rel="noopener noreferrer">Quora</a></li>
+              <li><a href="https://bit.ly/m/2030_oo" target="_blank" rel="noopener noreferrer">FI links</a></li>
+              <li><a href="https://www-2030--oo-net.translate.goog/?_x_tr_sl=en&amp;_x_tr_tl=ja&amp;_x_tr_hl=ja&amp;_x_tr_pto=wapp" target="_blank" rel="noopener noreferrer">日本語はこちら</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="updates" aria-labelledby="updates-title">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 id="updates-title">News and Archive</h2>
+          <p>Press releases, archive pages, and related project pages.</p>
+        </div>
         <ul class="link-list">
-          <li><a href="https://www-2030--oo-net.translate.goog/?_x_tr_sl=en&amp;_x_tr_tl=ja&amp;_x_tr_hl=ja&amp;_x_tr_pto=wapp" target="_blank" rel="noopener noreferrer">日本語はこちら</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="pr.html">Press Release</a></li>
+          <li><a href="pr1201.html">Press Release1201</a></li>
+          <li><a href="319.html">PR_20240319</a></li>
+          <li><a href="PR_20240918.html">PR_20240918</a></li>
+          <li><a href="Press%20Rerease0722.html">Press Rerease0722</a></li>
+          <li><a href="https://web.archive.org/web/20230329171809/https://2030-oo.net/" target="_blank" rel="noopener noreferrer">WIC 1st archive</a></li>
         </ul>
       </div>
     </section>
-    <section class="section" aria-labelledby="section-3">
-      <div class="section-inner">
-        <h2 id="section-3">Circular In-finity</h2>
-        <p>Circular In-finity invites entries showcasing the world in 2030. The goal is for these creations, such as &quot;Sophie&#x27;s World,&quot; &quot;The Goal,&quot; and &quot;The Inequitable Owl&quot; (a film about climate change and the SDGs), to facilitate deep learning and behavioral transformation. The international concept competition, &quot;Infinity in 2030,&quot; was organized with the expectation that the submissions would inspire significant learning and behavioral shifts. The report has been archived in the National Diet Library archives.</p>
-        <p>Additionally, a partnership has been established with FILMe, a nonprofit organization dedicated to promoting cinematic expression, connecting with the art workshop in Dubai and the YUMEPIC Space Cherry Blossom Contest.</p>
-        <p>In our pursuit of an inclusive society, we also aim to collaborate in advancing universal schools.</p>
-        <div class="media-grid">
-          <figure class="media-card"><img src="top/2e82cc2f6d0fb6a763e8f75c322022c7.jpg" alt="Circular In-finity visual" loading="lazy"></figure>
-          <figure class="media-card"><img src="top/f662a9bbc6d5fdf87e2476658d842ea8.jpg" alt="Circular In-finity visual" loading="lazy"></figure>
+
+    <section class="section alt" id="contact" aria-labelledby="contact-title">
+      <div class="section-inner two-column">
+        <div>
+          <div class="section-header">
+            <h2 id="contact-title">Connect With Circular In-finity</h2>
+            <p>For collaboration, questions, or project inquiries, contact the team directly.</p>
+          </div>
+          <a class="button button-primary" href="mailto:s@2030-oo.net">s@2030-oo.net</a>
         </div>
-      </div>
-    </section>
-    <section class="section" aria-labelledby="section-4">
-      <div class="section-inner">
-        <h2 id="section-4">Contest &quot;2030 as 〇〇&quot; and example of works incuding movie and novel.</h2>
-      </div>
-    </section>
-    <section class="section" aria-labelledby="section-5">
-      <div class="section-inner">
-        <h2 id="section-5">Circular In-finity</h2>
-        <div class="media-grid">
-          <a href="https://ondankataisaku.env.go.jp/cn_lifestyle/detail/incentive/48.html" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/8c4d76a2eaa837520d22b82606532cf2.jpg" alt="Circular In-finity visual" loading="lazy"></a>
-        </div>
-      </div>
-    </section>
-    <section class="section" aria-labelledby="section-6">
-      <div class="section-inner">
-        <h2 id="section-6">Circular In-finity</h2>
-        <div class="media-grid">
-          <figure class="media-card"><img src="top/864870ef8ff944ed6fac0092901924fe.jpg" alt="Circular In-finity visual" loading="lazy"></figure>
-          <a href="http://youtu.be/NKUm9iHXCcs?si=7f5C7aETClrLqWrt" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/90ff319e1840fe2d648679583531b961.jpg" alt="Circular In-finity visual" loading="lazy"></a>
-          <a href="https://coki.jp/sustainable/sdgs/27403/" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/61ce6c0b72571fc19ac1aeff3c412851.jpg" alt="Circular In-finity visual" loading="lazy"></a>
-        </div>
-      </div>
-    </section>
-    <section class="section" aria-labelledby="section-7">
-      <div class="section-inner">
-        <h2 id="section-7"><a href="https://jprsi.go.jp/en/member/532" target="_blank" rel="noopener noreferrer">JPRSI Online booth (Virtual Japan Pavilion in COP28 )</a></h2>
-        <ul class="link-list">
-          <li><a href="https://jprsi.go.jp/en/member/532" target="_blank" rel="noopener noreferrer">JPRSI Online booth (Virtual Japan Pavilion</a></li>
-        </ul>
-      </div>
-    </section>
-    <section class="section" aria-labelledby="section-8">
-      <div class="section-inner">
-        <h2 id="section-8">Circular In-finity</h2>
-        <div class="media-grid">
-          <figure class="media-card"><img src="top/7e60c8747e3767e246bc888e2266b40d.jpg" alt="Circular In-finity visual" loading="lazy"></figure>
-          <a href="https://jprsi.go.jp/en/member/532" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/85255a9ebf33a095f734c1057502afff.jpg" alt="Circular In-finity visual" loading="lazy"></a>
-          <figure class="media-card"><img src="top/ddb867ecdf3fd59fc18605e26f96cc36.jpg" alt="Circular In-finity visual" loading="lazy"></figure>
-          <a href="https://www.expocitydubai.com/en/expo-city-dubai-is-proud-host-of-cop28/" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/06dd3b3238997d2277c5880c7cdfdec0.jpg" alt="Circular In-finity visual" loading="lazy"></a>
-        </div>
-      </div>
-    </section>
-    <section class="section" aria-labelledby="section-9">
-      <div class="section-inner">
-        <h3 id="section-9">Our services</h3>
-        <p>As virtual Japan pavillion in COP28</p>
-      </div>
-    </section>
-    <section class="section" aria-labelledby="section-10">
-      <div class="section-inner">
-        <h2 id="section-10">Circular In-finity</h2>
-        <p>Special thanks</p>
-        <p>・Studio F | Refer to Hikikomori</p>
-        <p>・特定非営利法人SDGs Hellowork</p>
-        <p>・Next One (株式会社Deporte)</p>
-        <div class="media-grid">
-          <a href="https://public.tableau.com/app/profile/shinichi.sato5275/viz/JMIP/1_1" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/af00e409fc84aed363b69132906efe03.jpg" alt="Circular In-finity visual" loading="lazy"></a>
-          <figure class="media-card"><img src="top/c3102ab5d1b6a10d20dc5e0a84e94dfc.jpg" alt="Circular In-finity visual" loading="lazy"></figure>
-          <a href="http://youtube.com/watch?v=Y7TsOIyUfCc" class="media-card" target="_blank" rel="noopener noreferrer"><img src="top/c446f6311f94498b9dc904e2992aa3ba.jpg" alt="Circular In-finity visual" loading="lazy"></a>
-        </div>
-        <ul class="link-list">
-          <li><a href="https://en.wikipedia.org/wiki/Hikikomori" target="_blank" rel="noopener noreferrer">Refer to Hikikomori</a></li>
-          <li><a href="https://sdgs-hellowork.com/" target="_blank" rel="noopener noreferrer">特定非営利法人SDGs Hellowork</a></li>
-          <li><a href="https://media-next-one.com/" target="_blank" rel="noopener noreferrer">Next One (株式会社Deporte)</a></li>
-        </ul>
+        <article class="card">
+          <h3>Special thanks</h3>
+          <p>Studio F, SDGs Hellowork, Next One, and collaborators supporting learning, inclusion, and creative expression.</p>
+          <ul class="link-list">
+            <li><a href="https://en.wikipedia.org/wiki/Hikikomori" target="_blank" rel="noopener noreferrer">Refer to Hikikomori</a></li>
+            <li><a href="https://sdgs-hellowork.com/" target="_blank" rel="noopener noreferrer">SDGs Hellowork</a></li>
+            <li><a href="https://media-next-one.com/" target="_blank" rel="noopener noreferrer">Next One</a></li>
+          </ul>
+        </article>
       </div>
     </section>
   </main>
+
   <footer class="site-footer">
     <a href="pp.html">Privacy Policy</a>
-    <span> | Contact: <a href="mailto:s@2030-oo.net" rel="noopener noreferrer">s@2030-oo.net</a></span>
+    <span> | Contact: <a href="mailto:s@2030-oo.net">s@2030-oo.net</a></span>
   </footer>
 </body>
 </html>
