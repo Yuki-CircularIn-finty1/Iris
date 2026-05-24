@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://2030-oo.net/sitemap.xml
