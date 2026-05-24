@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://2030-oo.net/sitemap.xml
+Sitemap: https://www.2030-oo.net/sitemap.xml
