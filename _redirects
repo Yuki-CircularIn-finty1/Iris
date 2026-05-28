@@ -1,3 +1,19 @@
+# Canonical public routes rendered from the existing legacy HTML exports.
+# Cloudflare Pages applies only the first matching rule, so these 200 proxy rules
+# render the existing files at the normalized URLs without a redirect chain.
+/deco-deco /deco_deco.html 200
+/press-release-0722 /Press%20Rerease0722.html 200
+
+# Redirect legacy and inconsistent URL variants to the canonical public routes.
+/eco_deco /deco-deco 301
+/eco_deco.html /deco-deco 301
+/deco_deco /deco-deco 301
+/deco_deco.html /deco-deco 301
+/Press%20Release0722 /press-release-0722 301
+/Press%20Release0722.html /press-release-0722 301
+/Press%20Rerease0722 /press-release-0722 301
+/Press%20Rerease0722.html /press-release-0722 301
+
 /index.html / 301
 /319.html /319 301
 /ai.html /ai 301
@@ -5,7 +21,6 @@
 /bi.html /bi 301
 /ChatGPT.html /ChatGPT 301
 /ci.html /ci 301
-/deco_deco.html /deco_deco 301
 /deco_deco_sub.html /deco_deco_sub 301
 /dei.html /dei 301
 /extention.html /extention 301
@@ -17,7 +32,6 @@
 /pr.html /pr 301
 /pr1201.html /pr1201 301
 /PR_20240918.html /PR_20240918 301
-/Press%20Rerease0722.html /Press%20Rerease0722 301
 /PrivacyPolicy.html /PrivacyPolicy 301
 /result.html /result 301
 /resume.html /resume 301
