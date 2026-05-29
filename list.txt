@@ -1,4 +1,3 @@
-ChatGPT
 ci
 extention
 gallery
@@ -18,7 +17,6 @@ _headers
 319.html
 404.html
 6d87b7e0f5a89f629fa9db87459fce6e.jpg
-ChatGPT.html
 ci.html
 extention.html
 gallery.html
