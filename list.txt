@@ -12,7 +12,6 @@ result
 top
 useful
 wic2
-yukinote
 _headers
 .gitattributes
 1da56396e945bc322941e5b98d79225a.jpg
@@ -34,7 +33,5 @@ pr1201.html
 Press Rerease0722.html
 PrivacyPolicy.html
 result.html
-resume.html
 useful.html
 wic2.html
-yukinote.html
