@@ -1,8 +1,5 @@
 # Redirect legacy and inconsistent URL variants to canonical public routes.
-# Canonical routes are served from matching HTML assets: deco-deco.html and press-release-0722.html.
-/eco_deco /deco-deco 301
-/eco_deco.html /deco-deco 301
-/deco-deco.html /deco-deco 301
+# Canonical routes are served from matching HTML assets such as press-release-0722.html.
 /Press%20Release0722 /press-release-0722 301
 /Press%20Release0722.html /press-release-0722 301
 /Press%20Rerease0722 /press-release-0722 301
