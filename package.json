@@ -1,0 +1,10 @@
+{
+  "name": "iris-static-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node tools/generate-public-surface.mjs",
+    "validate": "node tools/validate-public-surface.mjs",
+    "build": "npm run generate && npm run validate"
+  }
+}

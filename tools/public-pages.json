@@ -1,0 +1,145 @@
+{
+  "baseUrl": "https://www.2030-oo.net",
+  "defaultLastmod": "2026-05-27",
+  "privateSlugs": [
+    "ai",
+    "ai2",
+    "bi",
+    "ChatGPT",
+    "deco-deco",
+    "deco_deco",
+    "deco_deco_sub",
+    "dei",
+    "hikikomori",
+    "resume",
+    "wic3",
+    "yasuni_itt",
+    "yukinote"
+  ],
+  "legacyRedirects": [
+    {
+      "from": "/Press%20Release0722",
+      "to": "/press-release-0722"
+    },
+    {
+      "from": "/Press%20Release0722.html",
+      "to": "/press-release-0722"
+    },
+    {
+      "from": "/Press%20Rerease0722",
+      "to": "/press-release-0722"
+    },
+    {
+      "from": "/Press%20Rerease0722.html",
+      "to": "/press-release-0722"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "",
+      "html": "index.html",
+      "title": "Top",
+      "lastmod": "2026-05-27",
+      "listSlug": "top"
+    },
+    {
+      "slug": "319",
+      "html": "319.html",
+      "title": "PR_20240319",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "ci",
+      "html": "ci.html",
+      "title": "CI",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "extention",
+      "html": "extention.html",
+      "title": "Extention",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "gallery",
+      "html": "gallery.html",
+      "title": "Gallery",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "member",
+      "html": "member.html",
+      "title": "Member",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "news",
+      "html": "news.html",
+      "title": "News",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "pp",
+      "html": "pp.html",
+      "title": "Privacy Policy Short URL",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "pr",
+      "html": "pr.html",
+      "title": "Press Release",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "pr1201",
+      "html": "pr1201.html",
+      "title": "Press Release1201",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "PR_20240918",
+      "html": "PR_20240918.html",
+      "title": "PR_20240918",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "press-release-0722",
+      "html": "press-release-0722.html",
+      "title": "Press Release0722",
+      "lastmod": "2026-05-28"
+    },
+    {
+      "slug": "PrivacyPolicy",
+      "html": "PrivacyPolicy.html",
+      "title": "PrivacyPolicy",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "result",
+      "html": "result.html",
+      "title": "Result",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "useful",
+      "html": "useful.html",
+      "title": "Useful",
+      "lastmod": "2026-05-27"
+    },
+    {
+      "slug": "wic2",
+      "html": "wic2.html",
+      "title": "World Idea Challenge 2nd",
+      "lastmod": "2026-05-27"
+    }
+  ],
+  "staticFiles": [
+    "_headers",
+    ".gitattributes",
+    "1da56396e945bc322941e5b98d79225a.jpg",
+    "404.html",
+    "6d87b7e0f5a89f629fa9db87459fce6e.jpg",
+    "index.html",
+    "list.txt"
+  ]
+}

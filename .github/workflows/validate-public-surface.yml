@@ -1,0 +1,20 @@
+name: Validate public surface
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate and validate public files
+        run: npm run build
+      - name: Ensure generated files are committed
+        run: git diff --exit-code -- _redirects sitemap.xml list.txt robots.txt tools/generated/public-navigation.json tools/generated/public-navigation.inc
