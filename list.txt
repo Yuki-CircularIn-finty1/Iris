@@ -1,13 +1,7 @@
-ai
-ai2
 ChatGPT
 ci
-deco_deco
-deco_deco_sub
-dei
 extention
 gallery
-hikikomori
 member
 pr
 PR_20240918
@@ -18,8 +12,6 @@ result
 top
 useful
 wic2
-wic3
-yasuni_itt
 yukinote
 _headers
 .gitattributes
@@ -27,17 +19,10 @@ _headers
 319.html
 404.html
 6d87b7e0f5a89f629fa9db87459fce6e.jpg
-ai.html
-ai2.html
-bi.html
 ChatGPT.html
 ci.html
-deco_deco_sub.html
-deco_deco.html
-dei.html
 extention.html
 gallery.html
-hikikomori.html
 index.html
 list.txt
 member.html
@@ -52,6 +37,4 @@ result.html
 resume.html
 useful.html
 wic2.html
-wic3.html
-yasuni_itt.html
 yukinote.html
